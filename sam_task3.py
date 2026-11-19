@@ -1,0 +1,7 @@
+ves = float(input('Введите ваш вес в кг: '))
+rost = float(input('Введите ваш рост в метрах: '))
+IMT = (ves / (rost * rost))
+if IMT <=18.5: print('Недостаточный вес')
+elif 18.5<=IMT<=24.9: print("Норма")
+elif 25<=IMT<=29.9: print("Избыточный вес")
+elif IMT>=30: print('Ожирение')
